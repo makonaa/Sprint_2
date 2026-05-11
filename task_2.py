@@ -2,8 +2,9 @@ class Movies:
     def __init__(self):
         self.movies = []
 
-    def add_movie(self, movie):
+    def add_movie(self, movie:str) -> None:
         self.movies.append(movie)
+        return None
 
 class Comedy(Movies):
     def add_movie(self, movie:str) -> str:
