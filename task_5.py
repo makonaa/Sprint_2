@@ -1,5 +1,5 @@
 class Results:
-    def __init__(self, victories, draws, losses):
+    def __init__(self, victories:int, draws:int, losses:int):
         self.victories = victories
         self.draws = draws
         self.losses = losses
